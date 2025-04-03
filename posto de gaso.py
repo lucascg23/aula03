@@ -12,6 +12,6 @@ else :
         litrose = e * ee
         print(f"você vai pagar R$ {litrose} de etanol ")
     else:
-        print("tente novamente ")
+        print("tente novamente digitando G(g) ou E(e)")
 
 
