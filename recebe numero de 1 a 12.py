@@ -1,4 +1,5 @@
-n=int (input("escreva um numero "))
+n=int (input("escreva um numero \n"
+             "entre 1 e 12"))
 
 if n<1 or n>12:
 
@@ -26,7 +27,7 @@ else:
         print("outubro")
     elif n==11:
         print("novembro")
-    elif n==12:
+    else :
         print("dezembro")
 
 
